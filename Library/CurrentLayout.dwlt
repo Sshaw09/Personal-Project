@@ -337,19 +337,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/game3-17/Documents/GitHub/Personal-Project
+  m_LastProjectPath: /Users/stephenshaw/Desktop/Create with Code/Personal Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 12270000
-    m_LastClickedID: 10002
+    m_SelectedIDs: 122a0000
+    m_LastClickedID: 10770
     m_ExpandedIDs: 000000001227000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -497,8 +497,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: 90290000
+      m_LastClickedID: 10640
       m_ExpandedIDs: f0f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -554,9 +554,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2196358, y: 2.164411, z: 1.6349034}
+    m_Target: {x: 1.9093275, y: 1.7444516, z: 1.6320057}
     speed: 2
-    m_Value: {x: 1.2196358, y: 2.164411, z: 1.6349034}
+    m_Value: {x: 1.9093275, y: 1.7444516, z: 1.6320057}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,9 +584,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.014688193, y: 0.012596677, z: 0.00018500494, w: -0.9998128}
+    m_Target: {x: -0.0063085104, y: -0.02189943, z: 0.000138148, w: -0.9997403}
     speed: 2
-    m_Value: {x: 0.014688193, y: 0.012596677, z: 0.00018500494, w: -0.9998128}
+    m_Value: {x: -0.0063085104, y: -0.02189943, z: 0.000138148, w: -0.9997403}
   m_Size:
     m_Target: 10
     speed: 2
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 903, y: 458}
+  m_LastWindowPixelSize: {x: 1806, y: 916}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
