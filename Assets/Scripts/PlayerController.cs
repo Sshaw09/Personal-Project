@@ -5,8 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    private float speed = 10f;
+    public float speed = 10f;
     Rigidbody playerRB;
+    float range = 8f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +18,28 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        //if (Input.GetKeyDown(KeyCode.Space))
         {
-            playerRB.AddForce(Vector3.up * speed, ForceMode.Impulse);
+            //    playerRB.AddForce(Vector3.up * speed, ForceMode.Impulse);
         }
 
+        float horizontalInput = Input.GetAxis("Horizontal");
+        transform.Translate(Vector3.right *Time.deltaTime * speed * horizontalInput);
+
+        //Prevents player from going out of bounds
+        if (transform.position.x < -range)
+        {
+            transform.position = new Vector3(-range, transform.position.y, transform.position.z);
+
+        }
+
+        if (transform.position.x > range)
+        {
+            transform.position = new Vector3(range, transform.position.y, transform.position.z);
+
+        }
     }
+        
+
+   
 }
